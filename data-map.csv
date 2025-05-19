@@ -1,0 +1,5 @@
+Source,Dataset,Element,Field Name,Occurrence Count,Accounts,Attributes,Risk Created,Risk Score,Last Changed,Sensitive Records Count,Last Modified,File Size (in bytes),Row Count
+mysql,student.customer_phone,Email Address,email,3,,,,0,2025-05-09T07:27:35.871+00:00,6,,,3
+mysql,student.customer_phone,Phone Number,phone,3,,,,0,2025-05-09T07:27:35.871+00:00,6,,,3
+mysql,student.customer_record,Email Address,description,38531,,,,0,2025-05-09T07:27:36.893+00:00,77062,,,38531
+mysql,student.customer_record,Email Address,CustomerEmail,38531,,,,0,2025-05-09T07:27:36.893+00:00,77062,,,38531
