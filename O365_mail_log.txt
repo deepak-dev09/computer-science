@@ -1,0 +1,487 @@
+17:22:23: Executing ':services:sensor:SensorMainKt.main()'...
+
+Console output is saving to: D:\log\sensor.txt
+> Task :libs:common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:models:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:models:compileKotlin UP-TO-DATE
+> Task :libs:models:compileJava NO-SOURCE
+> Task :libs:models:processResources NO-SOURCE
+> Task :libs:models:classes UP-TO-DATE
+> Task :libs:models:jar UP-TO-DATE
+> Task :libs:common:compileKotlin UP-TO-DATE
+> Task :libs:common:compileJava NO-SOURCE
+> Task :libs:common:processResources NO-SOURCE
+> Task :libs:common:classes UP-TO-DATE
+> Task :libs:common:jar UP-TO-DATE
+> Task :libs:connectivity:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:connectivity:processResources NO-SOURCE
+> Task :libs:documentmodel:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:messaging:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:messaging:compileKotlin UP-TO-DATE
+> Task :libs:messaging:compileJava NO-SOURCE
+> Task :libs:messaging:processResources NO-SOURCE
+> Task :libs:messaging:classes UP-TO-DATE
+> Task :libs:messaging:jar UP-TO-DATE
+> Task :libs:documentmodel:processResources NO-SOURCE
+> Task :libs:pindexer:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:pindexer:processResources NO-SOURCE
+> Task :libs:scanner:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:scanner:processResources UP-TO-DATE
+> Task :services:sensor:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:actions:common:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:actions:common:compileKotlin UP-TO-DATE
+> Task :libs:actions:common:compileJava NO-SOURCE
+> Task :libs:actions:common:processResources NO-SOURCE
+> Task :libs:actions:common:classes UP-TO-DATE
+> Task :libs:actions:common:jar UP-TO-DATE
+> Task :libs:actions:sensor:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :libs:actions:sensor:processResources NO-SOURCE
+> Task :services:sensor:generateGitProperties
+> Task :services:sensor:processResources UP-TO-DATE
+> Task :libs:connectivity:compileKotlin
+> Task :libs:connectivity:compileJava NO-SOURCE
+> Task :libs:connectivity:classes UP-TO-DATE
+> Task :libs:connectivity:jar
+> Task :libs:documentmodel:compileKotlin
+> Task :libs:documentmodel:compileJava NO-SOURCE
+> Task :libs:documentmodel:classes UP-TO-DATE
+> Task :libs:documentmodel:jar UP-TO-DATE
+> Task :libs:pindexer:compileKotlin
+> Task :libs:pindexer:compileJava NO-SOURCE
+> Task :libs:pindexer:classes UP-TO-DATE
+> Task :libs:pindexer:jar UP-TO-DATE
+> Task :libs:scanner:compileKotlin
+> Task :libs:scanner:compileJava NO-SOURCE
+> Task :libs:scanner:classes UP-TO-DATE
+> Task :libs:scanner:jar UP-TO-DATE
+> Task :libs:actions:sensor:compileKotlin
+> Task :libs:actions:sensor:compileJava NO-SOURCE
+> Task :libs:actions:sensor:classes UP-TO-DATE
+> Task :libs:actions:sensor:jar UP-TO-DATE
+> Task :services:sensor:compileKotlin
+> Task :services:sensor:compileJava NO-SOURCE
+> Task :services:sensor:classes
+Connected to the target VM, address: 'localhost:63885', transport: 'socket'
+
+> Task :services:sensor:SensorMainKt.main()
+17:22:32.709 [main] INFO io.elten.SensorMain - Starting sensor with 4028mb max memory
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/VigneshSaravanan/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.13/e9f3458e7354fe4917081237c01fa4999f4e1b86/logback-classic-1.2.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/VigneshSaravanan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.36/a41f9cfe6faafb2eb83a1c7dd2d0dfd844e2a936/slf4j-simple-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2025-06-10 17:22:34.868 INFO   --- [           main] io.elten.SensorMainKt                         : Starting SensorMainKt using Java 17.0.12 on LT-DJSGQN3 with PID 9324 (D:\vignesh_program\IdeaProjects\divebell\services\sensor\build\classes\kotlin\main started by VigneshSaravanan in D:\vignesh_program\IdeaProjects\divebell)
+2025-06-10 17:22:34.871 INFO   --- [           main] io.elten.SensorMainKt                         : The following 1 profile is active: "local"
+2025-06-10 17:22:37.026 INFO   --- [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-10 17:22:37.031 INFO   --- [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-10 17:22:37.148 INFO   --- [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 0 Redis repository interfaces.
+2025-06-10 17:22:38.723 INFO   --- [           main] io.elten.sensor.framework.CredentialsProvider : Credentials expire in 0 ms; attempting to refresh
+2025-06-10 17:22:38.953 INFO   --- [           main] io.elten.sensor.framework.CredentialsProvider : Successfully refreshed credentials; expiry in 3599968 ms.
+2025-06-10 17:22:38.954 INFO   --- [           main] io.elten.sensor.framework.CredentialsProvider : Fetched bootstrap credentials successfully
+2025-06-10 17:22:40.247 INFO   --- [           main] io.elten.common.redis.RedisConfig             : Initializing Redis connection with host: localhost, port: 6379, SSL: false, Password_length: 0
+2025-06-10 17:22:40.846 INFO   --- [           main] io.elten.common.redis.RedisConfig             : Redis connection established successfully
+2025-06-10 17:22:41.680 WARN   --- [      Finalizer] io.lettuce.core.resource.DefaultClientResources : io.lettuce.core.resource.DefaultClientResources was not shut down properly, shutdown() was not called before it's garbage-collected. Call shutdown() or shutdown(long,long,TimeUnit) 
+2025-06-10 17:22:41.836 INFO   --- [           main] io.elten.SensorMainKt                         : Started SensorMainKt in 8.885 seconds (JVM running for 10.447)
+2025-06-10 17:22:43.756 INFO   --- [   scheduling-1] io.elten.sensor.services.EventLogService      : Flushed 1 events
+2025-06-10 17:23:14.573 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Scan 43b30faa-0c2f-473d-8ef0-208f46189a40 started
+2025-06-10 17:23:14.739 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Scan 43b30faa-0c2f-473d-8ef0-208f46189a40 starting mail 2 on [ScanRoot(path=, hierarchicalPath=/)]
+2025-06-10 17:23:15.787 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Sensor configured to use 2 scan threads for scan 43b30faa-0c2f-473d-8ef0-208f46189a40
+2025-06-10 17:23:16.866 INFO   --- [   scheduling-1] io.elten.sensor.services.EventLogService      : Flushed 2 events
+2025-06-10 17:23:17.814 ERROR   --- [pool-4-thread-1] com.azure.identity.implementation.IdentityClient : com.microsoft.aad.msal4j.MsalClientException: Token not found in the cache
+2025-06-10 17:23:18.269 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:19.713 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:19.714 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:20.035 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml
+2025-06-10 17:23:20.042 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml
+2025-06-10 17:23:20.046 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml to work queue, size now 1
+2025-06-10 17:23:20.051 WARN   --- [pool-4-thread-1] io.elten.connectivity.connector.o365.mail.O365MailClient : Message without a proper "From" with id:AAMkADQwN2E4ZjMxLWRiMDItNGZkOS05M2YxLTZhNzVhMzlmYTdkZABGAAAAAACQHGKD77asQ4Utv2PFVJqVBwAWLTVw44vGRZlBBLDPb97SAAAAAAEPAAAWLTVw44vGRZlBBLDPb97SAAS6nfrIAAA=
+2025-06-10 17:23:20.058 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:20.059 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:20.072 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#2] io.elten.sensor.services.ScanService          : Starting new location : /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml
+2025-06-10 17:23:20.076 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#2] io.elten.sensor.services.ScanService          : Scanning location /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml with timeout 300
+2025-06-10 17:23:20.092 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:20.093 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#2] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:21.129 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml
+2025-06-10 17:23:21.129 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml
+2025-06-10 17:23:21.130 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml to work queue, size now 2
+2025-06-10 17:23:21.132 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#3] io.elten.sensor.services.ScanService          : Starting new location : /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml
+2025-06-10 17:23:21.132 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#3] io.elten.sensor.services.ScanService          : Scanning location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml with timeout 300
+2025-06-10 17:23:21.133 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:21.134 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#3] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:21.136 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png
+2025-06-10 17:23:21.137 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png
+2025-06-10 17:23:21.137 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png to work queue, size now 3
+2025-06-10 17:23:21.138 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml
+2025-06-10 17:23:21.138 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml
+2025-06-10 17:23:21.138 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml to work queue, size now 4
+2025-06-10 17:23:21.139 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:21.140 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [tika-in-memory://localhost/2]
+SLF4J: Found binding in [tika-in-memory://localhost/3]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2025-06-10 17:23:21.779 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment.eml
+2025-06-10 17:23:21.779 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment.eml
+2025-06-10 17:23:21.779 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment.eml to work queue, size now 5
+2025-06-10 17:23:21.780 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment:FTK Imager 10.png
+2025-06-10 17:23:21.781 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment:FTK Imager 10.png
+2025-06-10 17:23:21.781 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Attachment:FTK Imager 10.png to work queue, size now 6
+2025-06-10 17:23:21.786 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:21.786 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2025-06-10 17:23:22.069 WARN   --- [pool-4-thread-1] io.elten.connectivity.connector.o365.mail.O365MailClient : Message without a proper "From" with id:AAMkADQwN2E4ZjMxLWRiMDItNGZkOS05M2YxLTZhNzVhMzlmYTdkZABGAAAAAACQHGKD77asQ4Utv2PFVJqVBwAWLTVw44vGRZlBBLDPb97SAAAAAAEPAAAWLTVw44vGRZlBBLDPb97SAASvkMP4AAA=
+2025-06-10 17:23:22.069 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/henry.scott.hs@exterro.in/DD Testing 02.eml
+2025-06-10 17:23:22.071 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/henry.scott.hs@exterro.in/DD Testing 02.eml
+2025-06-10 17:23:22.071 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/henry.scott.hs@exterro.in/DD Testing 02.eml to work queue, size now 7
+2025-06-10 17:23:22.072 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Test mail__.eml
+2025-06-10 17:23:22.072 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Test mail__.eml
+2025-06-10 17:23:22.072 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Test mail__.eml to work queue, size now 8
+2025-06-10 17:23:22.073 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/test event__test eve.eml
+2025-06-10 17:23:22.074 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/test event__test eve.eml
+2025-06-10 17:23:22.074 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/test event__test eve.eml to work queue, size now 9
+2025-06-10 17:23:22.074 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/Re: Test mail__.eml
+2025-06-10 17:23:22.074 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/Re: Test mail__.eml
+2025-06-10 17:23:22.074 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/Re: Test mail__.eml to work queue, size now 10
+2025-06-10 17:23:22.076 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:22.077 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:22.360 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml
+2025-06-10 17:23:22.361 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml
+2025-06-10 17:23:22.361 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml to work queue, size now 11
+2025-06-10 17:23:22.362 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Henry sent a message.eml
+2025-06-10 17:23:22.362 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Henry sent a message.eml
+2025-06-10 17:23:22.362 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Henry sent a message.eml to work queue, size now 12
+2025-06-10 17:23:22.362 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml
+2025-06-10 17:23:22.363 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml
+2025-06-10 17:23:22.363 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/Gowtham sent a messa.eml to work queue, size now 13
+2025-06-10 17:23:22.363 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/krishnaram.velumani@exterro.com/*** stguatedd *** In.eml
+2025-06-10 17:23:22.364 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/krishnaram.velumani@exterro.com/*** stguatedd *** In.eml
+2025-06-10 17:23:22.364 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/krishnaram.velumani@exterro.com/*** stguatedd *** In.eml to work queue, size now 14
+2025-06-10 17:23:22.368 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:22.369 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:23.308 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing.eml
+2025-06-10 17:23:23.308 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing.eml
+2025-06-10 17:23:23.309 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing.eml to work queue, size now 15
+2025-06-10 17:23:23.310 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:customer_record.csv
+2025-06-10 17:23:23.311 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:customer_record.csv
+2025-06-10 17:23:23.311 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:customer_record.csv to work queue, size now 16
+2025-06-10 17:23:23.312 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:text.txt
+2025-06-10 17:23:23.313 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:text.txt
+2025-06-10 17:23:23.314 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/DD Testing:text.txt to work queue, size now 17
+2025-06-10 17:23:23.315 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:23.316 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/no-reply@sharepointonline.com/Your Teams meeting r.eml
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/no-reply@sharepointonline.com/Your Teams meeting r.eml
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/no-reply@sharepointonline.com/Your Teams meeting r.eml to work queue, size now 18
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/ACTION REQUIRED: F1 .eml
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/ACTION REQUIRED: F1 .eml
+2025-06-10 17:23:23.594 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/ACTION REQUIRED: F1 .eml to work queue, size now 19
+2025-06-10 17:23:23.595 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml
+2025-06-10 17:23:23.596 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml
+2025-06-10 17:23:23.596 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml to work queue, size now 20
+2025-06-10 17:23:23.596 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml
+2025-06-10 17:23:23.596 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml
+2025-06-10 17:23:23.596 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/gayathri.mohanraj@exterro.com/REMINDER - ACTION RE.eml to work queue, size now 21
+2025-06-10 17:23:23.597 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/DDTeam@exterro.in/You've joined the DD.eml
+2025-06-10 17:23:23.597 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/DDTeam@exterro.in/You've joined the DD.eml
+2025-06-10 17:23:23.597 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/DDTeam@exterro.in/You've joined the DD.eml to work queue, size now 22
+2025-06-10 17:23:23.598 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:23.598 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 23
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 24
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 25
+2025-06-10 17:23:23.879 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.880 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.880 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 26
+2025-06-10 17:23:23.880 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.880 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:23.880 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 27
+2025-06-10 17:23:23.881 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:23.881 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [tika-in-memory://localhost/2]
+SLF4J: Found binding in [tika-in-memory://localhost/3]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+2025-06-10 17:23:24.156 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 28
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 29
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 30
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 31
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.157 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 32
+2025-06-10 17:23:24.158 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:24.158 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:24.432 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.433 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.433 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 33
+2025-06-10 17:23:24.433 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.434 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.434 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 34
+2025-06-10 17:23:24.435 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.435 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.435 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 35
+2025-06-10 17:23:24.435 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.435 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.436 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 36
+2025-06-10 17:23:24.436 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.436 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.436 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 37
+2025-06-10 17:23:24.438 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:24.439 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 38
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 39
+2025-06-10 17:23:24.715 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 40
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 41
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.716 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 42
+2025-06-10 17:23:24.718 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:24.718 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:24.968 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#2] io.elten.sensor.services.ScanService          : Sending profile for 26421df3-7aca-47d0-859c-bf15ebe2e618 location /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml
+2025-06-10 17:23:24.993 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 43
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 44
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 45
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.994 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 46
+2025-06-10 17:23:24.995 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.995 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:24.995 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 47
+2025-06-10 17:23:24.996 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:24.997 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:25.272 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Simplify how you col.eml
+2025-06-10 17:23:25.272 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Simplify how you col.eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Simplify how you col.eml to work queue, size now 48
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/You have been added .eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/You have been added .eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/noreply@email.teams.microsoft.com/You have been added .eml to work queue, size now 49
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Build an app to simp.eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Build an app to simp.eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/powerapps@info.microsoftemail.com/Build an app to simp.eml to work queue, size now 50
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:25.273 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 51
+2025-06-10 17:23:25.274 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:25.274 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml
+2025-06-10 17:23:25.274 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/karthikeyan.manikkam@exterro.com/ACTION REQUIRED: Gra.eml to work queue, size now 52
+2025-06-10 17:23:25.274 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:25.275 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:25.559 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:25.560 INFO   --- [pool-4-thread-1] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:25.649 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40] io.elten.sensor.services.ScanService          : Popped /samrajeddm@exterro.in/samrajeddmsmtp@exterro.in/event_check test 001.eml from work queue, now working on /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml(4)(300). Queue size: 51
+2025-06-10 17:23:25.649 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#5] io.elten.sensor.services.ScanService          : Starting new location : /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png
+2025-06-10 17:23:25.649 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#5] io.elten.sensor.services.ScanService          : Scanning location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png with timeout 300
+2025-06-10 17:23:25.652 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:25.653 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#5] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:25.695 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#3] io.elten.sensor.services.ScanService          : Sending profile for 26421df3-7aca-47d0-859c-bf15ebe2e618 location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml
+2025-06-10 17:23:25.768 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40] io.elten.sensor.services.ScanService          : Popped /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode.eml from work queue, now working on /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png(0)(300). Queue size: 50
+2025-06-10 17:23:25.768 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#7] io.elten.sensor.services.ScanService          : Starting new location : /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml
+2025-06-10 17:23:25.768 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#7] io.elten.sensor.services.ScanService          : Scanning location /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml with timeout 300
+2025-06-10 17:23:25.770 INFO   --- [ForkJoinPool.commonPool-worker-1] com.microsoft.aad.msal4j.AcquireTokenSilentSupplier : Returning token from cache
+2025-06-10 17:23:25.770 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#7] com.azure.identity.ClientSecretCredential     : Azure Identity => getToken() result for scopes [https://graph.microsoft.com/.default]: SUCCESS
+2025-06-10 17:23:25.812 WARN   --- [   AbortMonitor] io.elten.sensor.services.ScanService          : Aborting scan with id 43b30faa-0c2f-473d-8ef0-208f46189a40
+2025-06-10 17:23:25.815 WARN   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#5] io.elten.connectivity.fs.UnstructuredSourceRecordIterator : samrajeddm@exterro.in�/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK�AAMkADQwN2E4ZjMxLWRiMDItNGZkOS05M2YxLTZhNzVhMzlmYTdkZABGAAAAAACQHGKD77asQ4Utv2PFVJqVBwAWLTVw44vGRZlBBLDPb97SAAAAAAEJAAAWLTVw44vGRZlBBLDPb97SAAS8DpjZAAA=�AAMkADQwN2E4ZjMxLWRiMDItNGZkOS05M2YxLTZhNzVhMzlmYTdkZABGAAAAAACQHGKD77asQ4Utv2PFVJqVBwAWLTVw44vGRZlBBLDPb97SAAAAAAEJAAAWLTVw44vGRZlBBLDPb97SAAS8DpjZAAABEgAQAJrYJoFsaXBDsMV5Yx8ap4I=�png does not exist
+2025-06-10 17:23:25.815 WARN   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#7] io.elten.connectivity.fs.UnstructuredSourceRecordIterator : samrajeddm@exterro.in�/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK�AAMkADQwN2E4ZjMxLWRiMDItNGZkOS05M2YxLTZhNzVhMzlmYTdkZABGAAAAAACQHGKD77asQ4Utv2PFVJqVBwAWLTVw44vGRZlBBLDPb97SAAAAAAEJAAAWLTVw44vGRZlBBLDPb97SAAS8DpjaAAA=��eml does not exist
+2025-06-10 17:23:25.824 WARN   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#5] io.elten.sensor.services.ScanService          : Classification of location samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png was interrupted
+java.lang.InterruptedException: null
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at io.elten.scanner.pipeline.classification.RecordProfiler.processRecord(RecordProfiler.kt:41)
+	at io.elten.scanner.pipeline.classification.LocationProfiler$processRecords$2.invoke(LocationProfiler.kt:230)
+	at io.elten.scanner.pipeline.classification.LocationProfiler$processRecords$2.invoke(LocationProfiler.kt:220)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.scanner.pipeline.classification.LocationProfiler.processRecords(LocationProfiler.kt:220)
+	at io.elten.scanner.pipeline.classification.LocationProfiler.profile(LocationProfiler.kt:79)
+	at io.elten.sensor.services.ScanService.scanLocation(ScanService.kt:488)
+	at io.elten.sensor.services.ScanService.scanLocationAndSendProfile(ScanService.kt:405)
+	at io.elten.sensor.services.ScanService.access$scanLocationAndSendProfile(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1$1.invoke(ScanService.kt:458)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1$1.invoke(ScanService.kt:457)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:48)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:40)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invoke(Interruptible.kt)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invoke(Interruptible.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:43)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:157)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptible(Interruptible.kt:39)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptible$default(Interruptible.kt:36)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invokeSuspend(ScanService.kt:457)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invoke(ScanService.kt)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invoke(ScanService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturnIgnoreTimeout(Undispatched.kt:54)
+	at kotlinx.coroutines.TimeoutKt.setupTimeout(Timeout.kt:149)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull(Timeout.kt:105)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull-KLykuaI(Timeout.kt:137)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1.invokeSuspend(ScanService.kt:456)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at io.elten.sensor.services.ScanService.classifyLocation(ScanService.kt:455)
+	at io.elten.sensor.services.ScanService.access$classifyLocation(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$scanLocations$2$3$1.invoke(ScanService.kt:350)
+	at io.elten.sensor.services.ScanService$scanLocations$2$3$1.invoke(ScanService.kt:349)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.sensor.services.ScanService.scanLocations$lambda$8$lambda$7(ScanService.kt:349)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable$run$1.invoke(ScanContextAwareThreadFactory.kt:25)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable$run$1.invoke(ScanContextAwareThreadFactory.kt:25)
+	at io.elten.connectivity.support.ScanMeterRegistry.onScan(ScanMeterRegistry.kt:66)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable.run(ScanContextAwareThreadFactory.kt:25)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-06-10 17:23:25.824 WARN   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40 @coroutine#7] io.elten.sensor.services.ScanService          : Classification of location samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml was interrupted
+java.lang.InterruptedException: null
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:94)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at io.elten.scanner.pipeline.classification.RecordProfiler.processRecord(RecordProfiler.kt:41)
+	at io.elten.scanner.pipeline.classification.LocationProfiler$processRecords$2.invoke(LocationProfiler.kt:230)
+	at io.elten.scanner.pipeline.classification.LocationProfiler$processRecords$2.invoke(LocationProfiler.kt:220)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.scanner.pipeline.classification.LocationProfiler.processRecords(LocationProfiler.kt:220)
+	at io.elten.scanner.pipeline.classification.LocationProfiler.profile(LocationProfiler.kt:79)
+	at io.elten.sensor.services.ScanService.scanLocation(ScanService.kt:488)
+	at io.elten.sensor.services.ScanService.scanLocationAndSendProfile(ScanService.kt:405)
+	at io.elten.sensor.services.ScanService.access$scanLocationAndSendProfile(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1$1.invoke(ScanService.kt:458)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1$1.invoke(ScanService.kt:457)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptibleInExpectedContext(Interruptible.kt:48)
+	at kotlinx.coroutines.InterruptibleKt.access$runInterruptibleInExpectedContext(Interruptible.kt:1)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invokeSuspend(Interruptible.kt:40)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invoke(Interruptible.kt)
+	at kotlinx.coroutines.InterruptibleKt$runInterruptible$2.invoke(Interruptible.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:43)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:157)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptible(Interruptible.kt:39)
+	at kotlinx.coroutines.InterruptibleKt.runInterruptible$default(Interruptible.kt:36)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invokeSuspend(ScanService.kt:457)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invoke(ScanService.kt)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1$1.invoke(ScanService.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturnIgnoreTimeout(Undispatched.kt:54)
+	at kotlinx.coroutines.TimeoutKt.setupTimeout(Timeout.kt:149)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull(Timeout.kt:105)
+	at kotlinx.coroutines.TimeoutKt.withTimeoutOrNull-KLykuaI(Timeout.kt:137)
+	at io.elten.sensor.services.ScanService$classifyLocation$classified$1.invokeSuspend(ScanService.kt:456)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:95)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:69)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:47)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at io.elten.sensor.services.ScanService.classifyLocation(ScanService.kt:455)
+	at io.elten.sensor.services.ScanService.access$classifyLocation(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$scanLocations$2$3$1.invoke(ScanService.kt:350)
+	at io.elten.sensor.services.ScanService$scanLocations$2$3$1.invoke(ScanService.kt:349)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.sensor.services.ScanService.scanLocations$lambda$8$lambda$7(ScanService.kt:349)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable$run$1.invoke(ScanContextAwareThreadFactory.kt:25)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable$run$1.invoke(ScanContextAwareThreadFactory.kt:25)
+	at io.elten.connectivity.support.ScanMeterRegistry.onScan(ScanMeterRegistry.kt:66)
+	at io.elten.connectivity.support.ScanContextAwareThreadFactory$ScanContextAwareRunnable.run(ScanContextAwareThreadFactory.kt:25)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-06-10 17:23:25.840 INFO   --- [scan-1-43b30faa-0c2f-473d-8ef0-208f46189a40] io.elten.sensor.services.ScanService          : Popped /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Attachment with Mode:Background.png from work queue, now working on . Queue size: 48
+2025-06-10 17:23:25.840 INFO   --- [scan-2-43b30faa-0c2f-473d-8ef0-208f46189a40] io.elten.sensor.services.ScanService          : Popped /samrajeddm@exterro.in/O=EXCHANGELABSOU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)CN=RECIPIENTSCN=58A9C64BFBC94FF99C0F773092A6073F-SAMRAJK/Only Modern Attachme.eml from work queue, now working on . Queue size: 48
+2025-06-10 17:23:25.845 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Considering location /samrajeddm@exterro.in/gowthamd@exterro.in/Test Mail final .eml
+2025-06-10 17:23:25.845 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Max wait time for offer: 600 seconds for /samrajeddm@exterro.in/gowthamd@exterro.in/Test Mail final .eml
+2025-06-10 17:23:25.845 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Pushed task for /samrajeddm@exterro.in/gowthamd@exterro.in/Test Mail final .eml to work queue, size now 49
+2025-06-10 17:23:25.847 ERROR   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Shutting down executor immediately due to Task java.util.concurrent.FutureTask@2e3bb863[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7d053184[Wrapped task = io.elten.sensor.services.ScanService$$Lambda$1471/0x0000012aa8b24c80@55da7284]] rejected from java.util.concurrent.ThreadPoolExecutor@76fdb15e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4]
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@2e3bb863[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7d053184[Wrapped task = io.elten.sensor.services.ScanService$$Lambda$1471/0x0000012aa8b24c80@55da7284]] rejected from java.util.concurrent.ThreadPoolExecutor@76fdb15e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.elten.sensor.services.ScanService.scanLocations(ScanService.kt:348)
+	at io.elten.sensor.services.ScanService.scanDataSource(ScanService.kt:211)
+	at io.elten.sensor.services.ScanService.runScan(ScanService.kt:179)
+	at io.elten.sensor.services.ScanService.access$runScan(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1$1.invoke(ScanService.kt:102)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1$1.invoke(ScanService.kt:101)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.connectivity.support.ScanMeterRegistry.time$default(ScanMeterRegistry.kt:41)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1.invoke(ScanService.kt:101)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1.invoke(ScanService.kt:100)
+	at io.elten.connectivity.support.ScanMeterRegistry.onScan(ScanMeterRegistry.kt:66)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1.invoke(ScanService.kt:100)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1.invoke(ScanService.kt:98)
+	at io.elten.sensor.services.ScanRunnable.run(ScanService.kt:75)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-06-10 17:23:25.903 ERROR   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Scan of datasource 26421df3-7aca-47d0-859c-bf15ebe2e618 failed
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@2e3bb863[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7d053184[Wrapped task = io.elten.sensor.services.ScanService$$Lambda$1471/0x0000012aa8b24c80@55da7284]] rejected from java.util.concurrent.ThreadPoolExecutor@76fdb15e[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.elten.sensor.services.ScanService.scanLocations(ScanService.kt:348)
+	at io.elten.sensor.services.ScanService.scanDataSource(ScanService.kt:211)
+	at io.elten.sensor.services.ScanService.runScan(ScanService.kt:179)
+	at io.elten.sensor.services.ScanService.access$runScan(ScanService.kt:79)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1$1.invoke(ScanService.kt:102)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1$1.invoke(ScanService.kt:101)
+	at io.elten.connectivity.support.ScanMeterRegistry.time(ScanMeterRegistry.kt:44)
+	at io.elten.connectivity.support.ScanMeterRegistry.time$default(ScanMeterRegistry.kt:41)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1.invoke(ScanService.kt:101)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1$1.invoke(ScanService.kt:100)
+	at io.elten.connectivity.support.ScanMeterRegistry.onScan(ScanMeterRegistry.kt:66)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1.invoke(ScanService.kt:100)
+	at io.elten.sensor.services.ScanService$runScanHandler$scanRunnable$1.invoke(ScanService.kt:98)
+	at io.elten.sensor.services.ScanRunnable.run(ScanService.kt:75)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-06-10 17:23:25.957 INFO   --- [pool-4-thread-1] io.elten.sensor.services.ScanService          : Scan 43b30faa-0c2f-473d-8ef0-208f46189a40 complete
+2025-06-10 17:23:28.940 INFO   --- [   scheduling-1] io.elten.sensor.services.EventLogService      : Flushed 2 events
