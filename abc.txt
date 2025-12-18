@@ -1,3 +1,1 @@
-abc@gmail.com
-xyz@gmail.com
-abcd@gmail.com
+abc@gmail.com is the email id of xyz@gmail.com and abcd@gmail.com
