@@ -1,0 +1,10 @@
+Employee Record
+Employee ID: EMP-10003
+Name: Ethan Taylor
+Email: ethantaylor3@corp-example.com
+Phone: +1-206-555-1003
+Department: HR
+Manager: Michael Adams
+Salary: $73750
+Review Rating: 3/5
+Leave Balance: 13 days
